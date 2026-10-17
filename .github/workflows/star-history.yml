@@ -22,7 +22,6 @@ on:
 
 jobs:
   refresh:
-    if: github.repository_owner == 'lyogavin'
     runs-on: ubuntu-latest
     permissions:
       contents: write
